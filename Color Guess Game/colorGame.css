@@ -1,0 +1,75 @@
+body{
+	background-color: #232323;
+	margin-top: 100px;
+	margin: 0;
+	font-family: 'Press Start 2P', cursive;
+}
+button{
+	font-family: 'Revalia', cursive;
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	font-size: inherit;
+	transition: all 0.4s;
+	 /*ANIMATION TOOL */
+	outline: none; 
+	/*color: purple ;*/
+}
+.square{
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	background-color: cyan;
+	border-radius: 25%;
+	transition: background 0.5s; 
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	/*WEBKIT AND MOZ ARE USED FOR OTHER BROWSER TRANSITION ANIMATIONS */
+	/*TRANSITION CAN BE USED TO SELECT A PARTICUALR ATTRIBUTE AND ASIGN SOME SORT OF DELAY TO THE ATTRIBUTE */
+}
+.container{
+	max-width: 600px;
+	margin: 0 auto; /*TIP:1 Centres contents auto spacng l/r, o top*/ 
+
+}
+h1{
+	color: white;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: x-large;
+	padding: 20px 0;
+}
+#colorDisplay{
+	font-size: 133%;
+}
+#message{
+	/*color: white;*/
+	display : inline-block; /*TIP 2 READ THROUGH DISPLAY AND ITS PROPERTIES*/
+	width: 20%;	
+}
+/*#retry{
+	color:white;
+}*/
+#stripe{
+
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+	margin-bottom: 25px;
+}
+.selected{
+	background: steelblue;
+	color: white;
+}
+button:hover {
+	color: white;
+	background: steelblue;
+
+}
